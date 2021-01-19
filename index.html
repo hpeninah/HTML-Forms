@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Form: Text Field</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+  <main>
+
+    <section>
+        <h2>Contact Information</h2>
+        <div class="group">
+            <div class="item-double">
+                <form action="https://formspree.io/hm759637@gmail.com"
+                method="POST">
+                    <label
+                    for="user-name">Name:</label>
+                    <input id="user-name"
+                    type="text"
+                    name="name"
+                    id="user-name"
+                    autofocus="on"
+                    maxlength="24"
+                    placeholder="Enter your full name"
+                    required>
+                    
+                    <label
+                    for="user-email">Email:</label>
+                    <input id="user-email"
+                    type="text"
+                    name="email"
+                    autofocus="on"
+                    placeholder="Enter your email address"
+                    required>
+
+                    <label
+                    for="user-message">Message:</label>
+                    <textarea id="user-message"
+                    name="message"
+                    autofocus="on"
+                    required
+                    maxlength="300"
+                    placeholder="Enter your message"></textarea>
+                    
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,68 @@
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom:100px;
+}
+
+main h1 {
+    margin: 0 10px;
+    border-bottom:1px solid lightskyblue;
+}
+
+main h2 {
+    margin: 20px 10px;
+    border-bottom: 1px solid darkgray;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+.item-double {
+    flex: 2;
+    margin: 10px;
+}
+
+@media all and (min-width: 800px) {
+    section {
+      padding: 0 10%;
+    }
+    .group {
+      flex-direction: row;
+    }
+  }
+  
+  form input, 
+  form textarea {
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  form textarea {
+    height: 160px;
+  }
+
+  form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: darkslategray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
